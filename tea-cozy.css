@@ -1,0 +1,135 @@
+*{
+height: auto;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family: helvetica;
+font-size: 22px;
+color: seashell;
+opacity:0.9;
+list-style-type: none;
+}
+
+ body {
+    width: 1402px;
+    background-color: black;
+    border: 1px solid seashell;
+}
+header {
+    width: 1400px;
+    height: 69px;
+    padding-left: 10px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    position: relative;
+    right: 220px;
+}
+.logo img {
+    max-width: 120px;
+    height: 50px;
+}
+
+.tea-navigation span {
+    position: relative;
+    left: 220px;
+    margin:0 10px;
+   
+}
+
+.mission-background {
+    width: 1200px;
+    height: 700px;
+    background-image: url(./images/img-mission-background.png);
+    position: relative;
+    margin-bottom: 50px;
+}
+.mission-content{
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) 
+}
+.mission-content h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 1200px;
+    text-align: center;
+}
+.mission-content h4 {
+    width: 1200px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tea-of-the-month h4
+ {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.tea-of-the-month h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.tea-of-the-month-images {
+width: 1000px;
+display:flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.tea-of-the-month-images img { 
+    width: 300px;
+    height: 200px;
+}
+figcaption {
+    text-align: center;
+}
+
+.locations {
+    background-image: url(./images/img-locations-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.location-text  {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 35px;
+}
+
+.location-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.boxes  {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;    
+}
+.teacozy {
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+footer {
+    margin: 20px;
+}
